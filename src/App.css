@@ -1,0 +1,78 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  height:100vh;
+  width:100vw;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url('./assets/exchange.jpeg');
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.currency-converter{
+  margin-top: 60px;
+  margin-left: 80%;
+  width:350px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  padding:20px;
+}
+
+h1{
+  padding:5px 0px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color:rgb(5, 228, 228);
+}
+
+ .data{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ .input-container,
+ .final{
+  margin-top: 10px;
+ }
+ label{
+  display: block;
+  font-weight: 600;
+  padding:10px;
+ }
+#amt,
+#from-currency,
+#to-currency{
+  width:230px;
+  height:30px;
+  margin-left: 3px;
+  padding:5px;
+  border-radius:5px; 
+  border-color: aqua;
+}
+
+.final{
+  display:block;
+  margin: 20px 0px;
+  border:3px dotted aquamarine;
+  border-radius: 3px;
+ }
+ .final p{
+ color:rgb(8, 181, 181);
+ font-weight: bold;
+ font-size: 18px;
+ text-align: center;
+ cursor:grab;
+ padding:10px;
+ background-color: black;
+ }
+  .final p:hover{
+   
+    color:rgb(93, 150, 6);
+  }
